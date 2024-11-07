@@ -1,0 +1,70 @@
+.enquiry {
+  width: 100%;
+  text-align: center;
+}
+
+.enquiry form {
+  width: 50%;
+  margin: 2rem auto;
+  padding: 2rem;
+  border: 1px solid darkblue;
+  border-radius: 1rem;
+}
+
+.enquiry h1 {
+  font-size: 2.5rem;
+  font-weight: 1000;
+  color: darkblue;
+  margin-top: 1rem;
+}
+
+.enquiry form aside {
+  display: flex;
+  align-items: start;
+  gap: 1rem;
+}
+
+.enquiry form blockquote {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin: 1rem 0;
+  align-items: start;
+}
+
+.enquiry form blockquote input,
+.enquiry form blockquote textarea,
+.enquiry form blockquote select {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid darkblue;
+}
+
+.enquiry form blockquote textarea {
+  resize: none;
+}
+
+.enquiry form button {
+  padding: 0.5rem 2.5rem;
+  background-color: darkblue;
+  border: 1px solid darkblue;
+  color: white;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+@media (max-width: 480px) {
+  .enquiry form {
+    width: 95%;
+    padding: 0.5rem;
+  }
+
+  .enquiry form aside {
+    flex-direction: column;
+    gap: 0;
+  }
+}

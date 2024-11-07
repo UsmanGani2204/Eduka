@@ -1,0 +1,29 @@
+.aboutUsMain {
+  width: 100%;
+}
+
+.aboutUsMain div {
+  width: 70%;
+  display: flex;
+  gap: 1rem;
+  margin: 2rem auto;
+}
+
+.aboutUsMain div ul {
+  width: 100%;
+}
+
+.aboutUsMain div ul li {
+  width: 100%;
+}
+
+.aboutUsMain ul img {
+  width: 300px;
+  float: inline-end;
+}
+
+@media (max-width: 480px) {
+  .aboutUsMain div {
+    width: 85%;
+  }
+}

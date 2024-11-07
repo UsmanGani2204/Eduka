@@ -1,0 +1,65 @@
+.aboutUs {
+  width: 70%;
+  margin: 2rem auto;
+  display: flex;
+  align-items: start;
+  gap: 1rem;
+  transform: translateX(1500px);
+}
+
+.aboutUs aside img {
+  width: 500px;
+  height: 500px;
+}
+
+.aboutUs aside {
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 2rem;
+}
+
+.aboutUs aside button {
+  padding: 3px 2rem;
+  border-radius: 0.5rem;
+  border: 1px solid darkblue;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: darkblue;
+  color: white;
+}
+
+.aboutUs aside button:hover {
+  background-color: white;
+  color: darkblue;
+}
+
+.aboutUs aside h1 {
+  font-size: 2rem;
+  font-weight: 800;
+  color: darkblue;
+}
+
+.aboutUs aside ul li {
+  color: darkblue;
+}
+
+.aboutUs aside dl dd {
+  color: darkblue;
+  font-size: 1.5rem;
+}
+
+.aboutUs aside dl dd b {
+  font-weight: 1000;
+}
+
+@media (max-width: 480px) {
+  .aboutUs {
+    flex-direction: column;
+    width: 95%;
+    margin: 0 auto;
+    transform: none;
+  }
+}
